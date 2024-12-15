@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опис 3D-фігурки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #0eb461;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .image-container {
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .description {
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #c8d83a;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>3D-фігурка: Годзила і черепашка ніндзя</h1>
+    <div class="image-container">
+        <img src="3d.jpg" alt="Годзила і черепашка ніндзя">
+    </div>
+    <p class="description">Це 3D-фігурка робота, створена з PLA-пластику. Висота: 15 см. Прекрасний вибір для подарунка або колекції!</p>
+    <button class="button" onclick="alert('Фігурку додано до кошика!')">Купити</button>
+</body>
+</html>
