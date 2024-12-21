@@ -10,7 +10,23 @@
     <header>
         <h1>3D Фігури на замовлення</h1>
         <p>Унікальні 3D-моделі для вашого дому та офісу</p>
+        <div class="cart-icon">
+            <span class="cart-count">0</span>
+            <img src="cart-icon.svg" alt="Кошик" id="cartIcon">
+        </div>
     </header>
+
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Кошик</h2>
+            <div id="cartItems"></div>
+            <div class="cart-total">
+                <p>Загальна сума: <span id="totalPrice">0</span> грн.</p>
+                <button id="checkoutBtn">Оформити замовлення</button>
+            </div>
+        </div>
+    </div>
 
     <main>
         <section class="products">
@@ -18,50 +34,66 @@
             <div class="product-card">
                 <img src="3d.jpg" alt="Годзила і черепашка ніндзя">
                 <h3>Годзила і черепашка ніндзя</h3>
-                <p>Ціна: 500 грн.</p>
-                <button onclick="window.location.href='figurine1.html'">Купити</button>
+                <p class="price">Ціна: 500 грн.</p>
+                <p class="description" style="display: none;">Детальний опис товару</p>
+                <button class="details-btn">Деталі</button>
+                <button class="buy-btn">Купити</button>
             </div>
             <div class="product-card">
                 <img src="3dd.jpg" alt="Robot">
                 <h3>Robot</h3>
-                <p>Ціна: 700 грн.</p>
-                <button onclick="window.location.href='figurine1.html'">Купити</button>
+                <p class="price">Ціна: 700 грн.</p>
+                <p class="description" style="display: none;">Детальний опис товару</p>
+                <button class="details-btn">Деталі</button>
+                <button class="buy-btn">Купити</button>
             </div>
             <div class="product-card">
                 <img src="3ddd.jpg" alt="Фігури">
                 <h3>Фігури</h3>
-                <p>Ціна: 549 грн.</p>
-                <button onclick="window.location.href='figurine1.html'">Купити</button>
+                <p class="price">Ціна: 549 грн.</p>
+                <p class="description" style="display: none;">Детальний опис товару</p>
+                <button class="details-btn">Деталі</button>
+                <button class="buy-btn">Купити</button>
             </div>
             <div class="product-card">
                 <img src="3ddddddd.jpg" alt="Змія">
                 <h3>Змія</h3>
-                <p>Ціна: 499 грн.</p>
-                <button onclick="window.location.href='figurine1.html'">Купити</button>
+                <p class="price">Ціна: 499 грн.</p>
+                <p class="description" style="display: none;">Детальний опис товару</p>
+                <button class="details-btn">Деталі</button>
+                <button class="buy-btn">Купити</button>
             </div>
             <div class="product-card">
                 <img src="3dddddd.jpg" alt="Капібара">
                 <h3>Капібара</h3>
-                <p>Ціна: 699 грн.</p>
-                <button onclick="window.location.href='figurine1.html'">Купити</button>
+                <p class="price">Ціна: 699 грн.</p>
+                <p class="description" style="display: none;">Детальний опис товару</p>
+                <button class="details-btn">Деталі</button>
+                <button class="buy-btn">Купити</button>
             </div>
             <div class="product-card">
                 <img src="3dddd.jpg" alt="Жіноча фігура">
                 <h3>Жіноча фігура</h3>
-                <p>Ціна: 499 грн.</p>
-                <button onclick="window.location.href='figurine1.html'">Купити</button>
+                <p class="price">Ціна: 499 грн.</p>
+                <p class="description" style="display: none;">Детальний опис товару</p>
+                <button class="details-btn">Деталі</button>
+                <button class="buy-btn">Купити</button>
             </div>
             <div class="product-card">
                 <img src="3dd12.jpg" alt="Чепаха">
                 <h3>Чепашка</h3>
-                <p>Ціна: 299 грн.</p>
-                <button onclick="window.location.href='figurine1.html'">Купити</button>
+                <p class="price">Ціна: 299 грн.</p>
+                <p class="description" style="display: none;">Детальний опис товару</p>
+                <button class="details-btn">Деталі</button>
+                <button class="buy-btn">Купити</button>
             </div>
             <div class="product-card">
                 <img src="3ddddd.jpg" alt="Драконі яйця">
                 <h3>Драконі яйця</h3>
-                <p>Ціна: 399 грн.</p>
-                <button onclick="window.location.href='figurine1.html'">Купити</button>
+                <p class="price">Ціна: 399 грн.</p>
+                <p class="description" style="display: none;">Детальний опис товару</p>
+                <button class="details-btn">Деталі</button>
+                <button class="buy-btn">Купити</button>
             </div>
         </section>
     </main>
@@ -70,6 +102,6 @@
         <p>&copy; 2024 3D Фігури. Усі права захищені.</p>
     </footer>
 
-    <script src="sript.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
